@@ -1,0 +1,21 @@
+agence ,chef d'agence,emplacement,nombre d'employés,nombre de reclamations,code d'agence ,code_region 
+A,Mohamed ,Agence Montplaisir,6,49,5824,6986
+B,Aymen,Agence Beb Bnet,5,30,5825,6986
+C,Salah,Agence Menzah 6,5,42,5826,6986
+D,Amine,Agence Gremda,4,35,6410,6985
+E,Dali,Agence Sfax Ariana ,4,37,6411,6985
+F,Moez,Agence Al Ain,4,29,6412,6985
+G,Melek,Agence Nasr,3,25,7860,6988
+H,Mryem,Agence Menzah 6,5,48,7861,6988
+I,Dhia,Agence centre urbain nord,4,41,7862,6988
+J,Maha,Agence Khzema,3,33,8500,6989
+K,Ranim,Agence Sahloul,4,49,8501,6989
+L,Akil,Agence Jawahra,4,42,8502,6989
+M,Saif,Agence Nabeul,3,40,9532,6987
+N,Racha,Agence Yassminet,3,38,3410,6990
+O,Mounir,Agence El Mourouj,4,46,3411,6990
+P,Mohsen,Agence Rades,5,43,3412,6990
+Q,Amal,Agence Danden,6,48,4000,6991
+R,Amira,Agence Oued Ellil,4,30,4001,6991
+S,Bilel,Agence Bardo,4,27,4002,6991
+T,Nabil,Agence El Manar ,5,41,7863,6988

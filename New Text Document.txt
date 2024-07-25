@@ -1,0 +1,110 @@
+<button type="submit" id="save" name="submit"  class="btn btn-primary">Save <i class="fa fa-save"></i></button>
+
+ <input type="radio" name="Gender" value="Male" /> Male <br />
+<input type="radio" name="Gender" value="Female" /> Female
+
+
+
+
+
+ <input type="hidden" value="" id="Sendimcol" name="Sendimcol" />
+  <input type="hidden" value="" id="Sendnbcol" name="Sendnbcol" />
+  <input type="hidden" value="" id="Sendimgenename" name="Sendimgenename" />
+        <input type="hidden" value="" id="Sendlistemesure" name="Sendlistemesure" />
+         <input type="hidden" value="" id="Sendlisterow" name="Sendlisterow" />
+         <input type="hidden" value="" id="Sendserver" name="Sendserver" />
+         <input type="hidden" value="" id="Sendb" name="Sendb" />
+
+
+    					<button type="button" id="verif" name="button" class="btn btn-secondary">Cancel</button>
+
+
+
+
+
+
+
+  document.getElementById("fdnomcomplet").value = $("#myInput").val();
+            document.getElementById("fdusername").value = $("#myInput").val();
+            document.getElementById("fdpassword").value = $("#myInput").val();
+            document.getElementById("fdgrade").value = grade
+            document.getElementById("fdgender").value = $('input[name="btnradio"]:checked').val();
+            document.getElementById("fdregion").value = region;
+            document.getElementById("fdagence").value = agence;
+
+
+
+        $('#verif').click(function () {
+            //console.log($("#fullName").val());
+            // console.log($("#username").val());
+            // console.log($("#password").val());
+            var value = $("#gra option:selected")
+            // console.log(value.text());
+            var gender = $('input[name="Gender"]:checked').val();
+            // console.log(gender);
+            var value2 = $("#reg option:selected")
+            var value3 = $("#br option:selected")
+            // console.log(value2.text());
+            // console.log(value3.text());
+            //debugger
+
+            /*  document.getElementById("fdusername").value = $("#username").val();
+              document.getElementById("fdpassword").value = $("#password").val();
+             document.getElementById("fdgrade").value = value.text()
+                document.getElementById("fdgender").value = gender
+                document.getElementById("fdregion").value = value2.text();
+                document.getElementById("fdagence").value = value3.text();*/
+            debugger
+            /*  $('#input').val("fdnomcomplet");
+              $('#input').val("fdusername");
+              $('#input').val("fdpassword");
+              $('#input').val("fdgrade");
+              $('#input').val("fdgender");
+              $('#input').val("fdregion");
+              $('#input').val("fdagence");*/
+         
+
+        });
+
+
+
+
+
+
+
+ <input type="hidden" value="" id="fdfullname" name="fdfullname" />
+        <input type="hidden" value="" id="fdusername" name="fdusername" />
+        <input type="hidden" value="" id="fdpassword" name="fdpassword" />
+          <input type="hidden" value="" id="fdgrade" name="fdgrade" />
+            <input type="hidden" value="" id="fdgender" name="fdgender" />
+         <input type="hidden" value="" id="fdregion" name="fdregion" />
+        <input type="hidden" value="" id="fdagence" name="fdagence" />
+
+
+
+
+ $('#save').click(function () {
+      
+        var value = $("#gra option:selected")
+        var value2 = $("#reg option:selected")
+        var value3 = $("#br option:selected")
+        var gender = $('input[name="Gender"]:checked').val();
+
+      
+    
+        console.log($("#fullName").val());
+        console.log($("#username").val());
+        console.log($("#password").val());
+        console.log(value.text());
+        console.log(value2.text());
+        console.log(value3.text());
+        console.log(gender);
+    });
+
+
+
+, 'password': password, 'gender': gender, 'grade': value, 'region': value2,'branch': value3
+
+
+,
+            string password,string gender,string grade,string region,string branch

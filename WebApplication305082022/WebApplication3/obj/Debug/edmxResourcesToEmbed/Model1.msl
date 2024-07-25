@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="AtbDataModelStoreContainer" CdmEntityContainer="AtbDataEntities">
+    <EntitySetMapping Name="userbanks">
+      <EntityTypeMapping TypeName="AtbDataModel.userbank">
+        <MappingFragment StoreEntitySet="userbank">
+          <ScalarProperty Name="userid" ColumnName="userid" />
+          <ScalarProperty Name="nomcomplet" ColumnName="nomcomplet" />
+          <ScalarProperty Name="username" ColumnName="username" />
+          <ScalarProperty Name="mdps" ColumnName="mdps" />
+          <ScalarProperty Name="grade" ColumnName="grade" />
+          <ScalarProperty Name="gender" ColumnName="gender" />
+          <ScalarProperty Name="region" ColumnName="region" />
+          <ScalarProperty Name="agence" ColumnName="agence" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
